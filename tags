@@ -1,0 +1,247 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Aschat	src/Aschat.as	/^		public function Aschat()$/;"	f
+Aschat	src/Aschat.as	/^	public class Aschat extends Sprite$/;"	c
+BaseChatSystem	src/chat/system/BaseChatSystem.as	/^		public function BaseChatSystem()$/;"	f
+BaseChatSystem	src/chat/system/BaseChatSystem.as	/^	public class BaseChatSystem extends EventDispatcher$/;"	c
+ChatData	src/data/ChatData.as	/^		public function ChatData()$/;"	f
+ChatData	src/data/ChatData.as	/^	public class ChatData$/;"	c
+ChatEvent	src/chat/event/ChatEvent.as	/^		public function ChatEvent(type:String, obj:Object=null, bubbles:Boolean=false, cancelable:Boolean=false)$/;"	f
+ChatEvent	src/chat/event/ChatEvent.as	/^	public class ChatEvent extends Event$/;"	c
+ChatManager	src/chat/ChatManager.as	/^		public function ChatManager()$/;"	f
+ChatManager	src/chat/ChatManager.as	/^	public class ChatManager$/;"	c
+ChatPanel	src/ui/ChatPanel.as	/^		public function ChatPanel(cls:Class, ac:Aschat)$/;"	f
+ChatPanel	src/ui/ChatPanel.as	/^	public class ChatPanel extends Sprite$/;"	c
+Debug	src/chat/debug/Debug.as	/^	public class Debug$/;"	c
+FPS	src/chat/debug/FpsCount.as	/^		private var FPS:TextField;$/;"	v
+FpsCount	src/chat/debug/FpsCount.as	/^		public function FpsCount()$/;"	f
+FpsCount	src/chat/debug/FpsCount.as	/^	public class FpsCount extends Sprite$/;"	c
+LoginPanel	src/ui/LoginPanel.as	/^		public function LoginPanel(cls:Class, ac:Aschat)$/;"	f
+LoginPanel	src/ui/LoginPanel.as	/^	public class LoginPanel extends Sprite$/;"	c
+MAX_RECONN_TIMES	src/chat/system/sfs/SfsChatSystem.as	/^		private static const MAX_RECONN_TIMES:int = RECONN_TIMES * 3;$/;"	c
+PING_INTERVAL	src/chat/system/sfs/SfsChatSystem.as	/^		private static const PING_INTERVAL:int = 100;$/;"	c
+PNB_SYSTEM	src/chat/ChatManager.as	/^		public static const PNB_SYSTEM:String = 'pnb_system';$/;"	c
+PRIVATE_MESSAGE	src/chat/ChatManager.as	/^		public static const PRIVATE_MESSAGE:String = 'private_message';$/;"	c
+PUBLIC_MESSAGE	src/chat/ChatManager.as	/^		public static const PUBLIC_MESSAGE:String = 'public_message';$/;"	c
+PnbChatSystem	src/chat/system/pnb/PnbChatSystem.as	/^	public class PnbChatSystem extends EventDispatcher$/;"	c
+RECONN_TIMES	src/chat/system/sfs/SfsChatSystem.as	/^		private static const RECONN_TIMES:int = 5;$/;"	c
+SFS_SYSTEM	src/chat/ChatManager.as	/^		public static const SFS_SYSTEM:String = 'sfs_system';$/;"	c
+SYS_DISCONN	src/chat/event/ChatEvent.as	/^		public static const SYS_DISCONN:String = 'sys_disconn';$/;"	c
+SYS_LOGIN	src/chat/event/ChatEvent.as	/^		public static const SYS_LOGIN:String = 'sys_login';$/;"	c
+SYS_MESSAGE	src/chat/event/ChatEvent.as	/^		public static const SYS_MESSAGE:String = 'sys_message';$/;"	c
+SYS_ROOMJOIN	src/chat/event/ChatEvent.as	/^		public static const SYS_ROOMJOIN:String = 'sys_joinroom';$/;"	c
+SYS_USER_ENTERROOM	src/chat/event/ChatEvent.as	/^		public static const SYS_USER_ENTERROOM:String = 'sys_user_enterroom';$/;"	c
+SYS_USER_EXITROOM	src/chat/event/ChatEvent.as	/^		public static const SYS_USER_EXITROOM:String = 'sys_user_exitroom';$/;"	c
+SfsChatSystem	src/chat/system/sfs/SfsChatSystem.as	/^		public function SfsChatSystem()$/;"	f
+SfsChatSystem	src/chat/system/sfs/SfsChatSystem.as	/^	public class SfsChatSystem extends BaseChatSystem implements IChatSystem$/;"	c
+TABDEBUG	src/ui/ChatPanel.as	/^		public static const TABDEBUG:String = 'tabdebug';$/;"	c
+TABROOM	src/ui/ChatPanel.as	/^		public static const TABROOM:String = 'tabroom';$/;"	c
+_ac	src/ui/ChatPanel.as	/^		private var _ac:Aschat;$/;"	v
+_ac	src/ui/LoginPanel.as	/^		private var _ac:Aschat;$/;"	v
+_asset	src/ui/ChatPanel.as	/^		private var _asset:Sprite;$/;"	v
+_asset	src/ui/LoginPanel.as	/^		private var _asset:Sprite;$/;"	v
+_autoReConn	src/chat/ChatManager.as	/^		private var _autoReConn:Boolean;$/;"	v
+_basContainer	src/Aschat.as	/^		private var _basContainer:Sprite;$/;"	v
+_chatData	src/data/ChatData.as	/^		private var _chatData:Array;$/;"	v
+_chatManager	src/chat/system/BaseChatSystem.as	/^		protected var _chatManager:ChatManager;$/;"	v
+_chatPanel	src/Aschat.as	/^		private var _chatPanel:ChatPanel;$/;"	v
+_chatSystem	src/chat/ChatManager.as	/^		private var _chatSystem:IChatSystem;$/;"	v
+_chatTxt	src/ui/ChatPanel.as	/^		private var _chatTxt:TextField;$/;"	v
+_configPath	src/chat/system/sfs/SfsChatSystem.as	/^		private var _configPath:String;$/;"	v
+_currRoom	src/chat/system/sfs/SfsChatSystem.as	/^		private var _currRoom:Room;$/;"	v
+_currTab	src/ui/ChatPanel.as	/^		private var _currTab:String;$/;"	v
+_debug	src/chat/ChatManager.as	/^		private var _debug:Boolean;$/;"	v
+_debugTabBtn	src/ui/ChatPanel.as	/^		private var _debugTabBtn:MovieClip;$/;"	v
+_icnContainer	src/Aschat.as	/^		private var _icnContainer:Sprite;$/;"	v
+_infoTxt	src/ui/ChatPanel.as	/^		private var _infoTxt:TextField;$/;"	v
+_instance	src/chat/ChatManager.as	/^		private static var _instance:ChatManager;$/;"	v
+_instance	src/chat/debug/FpsCount.as	/^		private static var _instance:FpsCount;$/;"	v
+_instance	src/data/ChatData.as	/^		private static var _instance:ChatData;$/;"	v
+_isLogin	src/chat/system/sfs/SfsChatSystem.as	/^		private var _isLogin:Boolean;$/;"	v
+_isReConn	src/chat/system/sfs/SfsChatSystem.as	/^		private var _isReConn:Boolean;$/;"	v
+_loadInfo	src/Aschat.as	/^		private var _loadInfo:LoaderInfo;$/;"	v
+_loader	src/Aschat.as	/^		private var _loader:Loader;$/;"	v
+_loading_icon	src/Aschat.as	/^		private var _loading_icon:Sprite;$/;"	v
+_loginBtn	src/ui/LoginPanel.as	/^		private var _loginBtn:MovieClip;$/;"	v
+_loginPanel	src/Aschat.as	/^		private var _loginPanel:LoginPanel;$/;"	v
+_name_input_txt	src/ui/LoginPanel.as	/^		private var _name_input_txt:TextField;$/;"	v
+_pingTime	src/chat/system/sfs/SfsChatSystem.as	/^		private var _pingTime:int;$/;"	v
+_projectDic	src/chat/debug/FpsCount.as	/^		private var _projectDic:Dictionary;$/;"	v
+_reConnTime	src/chat/system/sfs/SfsChatSystem.as	/^		private var _reConnTime:int;$/;"	v
+_retryCount	src/chat/system/sfs/SfsChatSystem.as	/^		private var _retryCount:int;$/;"	v
+_roomTabBtn	src/ui/ChatPanel.as	/^		private var _roomTabBtn:MovieClip;$/;"	v
+_roomUser	src/data/ChatData.as	/^		private var _roomUser:Array;$/;"	v
+_sendBtn	src/ui/ChatPanel.as	/^		private var _sendBtn:MovieClip;$/;"	v
+_sendTxt	src/ui/ChatPanel.as	/^		private var _sendTxt:TextField;$/;"	v
+_sfs	src/chat/system/sfs/SfsChatSystem.as	/^		private var _sfs:SmartFox;$/;"	v
+_systemTime	src/chat/ChatManager.as	/^		private var _systemTime:int;$/;"	v
+_systemType	src/chat/ChatManager.as	/^		private var _systemType:String;$/;"	v
+_updateTime	src/chat/ChatManager.as	/^		private var _updateTime:int;$/;"	v
+_userId	src/chat/ChatManager.as	/^		private var _userId:String;$/;"	v
+_winContainer	src/Aschat.as	/^		private var _winContainer:Sprite;$/;"	v
+ableToChat	src/Aschat.as	/^		private function ableToChat():void$/;"	f
+addChatData	src/data/ChatData.as	/^		public function addChatData(msgObj:Object):void$/;"	f
+addEvent	src/chat/system/BaseChatSystem.as	/^		protected function addEvent():void$/;"	f
+addEvent	src/chat/system/sfs/SfsChatSystem.as	/^		override protected function addEvent():void$/;"	f
+addEventListener	src/chat/ChatManager.as	/^		public function addEventListener(eventType:String, callback:Function):void$/;"	f
+addProject	src/chat/debug/FpsCount.as	/^		public function addProject(key:String, value:String):void$/;"	f
+addRoomUser	src/data/ChatData.as	/^		public function addRoomUser(userObj:Object):void$/;"	f
+autoReConn	src/chat/ChatManager.as	/^		public function get autoReConn():Boolean$/;"	p
+blankStr	src/data/ChatData.as	/^		private static const blankStr:String = '\\x20\\　\\n\\t\\r';$/;"	c
+btnHandler	src/ui/ChatPanel.as	/^		private function btnHandler(event:MouseEvent):void$/;"	f
+btnHandler	src/ui/LoginPanel.as	/^		private function btnHandler(event:MouseEvent):void$/;"	f
+chatData	src/data/ChatData.as	/^		public function get chatData():Array$/;"	p
+config	src/chat/ChatManager.as	/^		public function get config():Object$/;"	p
+config	src/chat/system/sfs/SfsChatSystem.as	/^		public function get config():Object$/;"	p
+configDataToObject	src/chat/system/sfs/SfsChatSystem.as	/^		private function configDataToObject(config:ConfigData):Object$/;"	f
+configPath	src/chat/ChatManager.as	/^		public function set configPath(filePath:String):void$/;"	p
+configPath	src/chat/system/sfs/SfsChatSystem.as	/^		public function set configPath(filePath:String):void$/;"	p
+connectServer	src/chat/system/sfs/SfsChatSystem.as	/^		private function connectServer():void$/;"	f
+consoleObj	src/chat/debug/Debug.as	/^		public static function consoleObj(debugObj:Object, debugRoot:String='root'):void$/;"	f
+consoleStr	src/chat/debug/Debug.as	/^        public static function consoleStr(debugMsg:String):void$/;"	f
+createChatPanel	src/Aschat.as	/^		private function createChatPanel():void$/;"	f
+createText	src/chat/debug/FpsCount.as	/^		private function createText():void$/;"	f
+currRoom	src/chat/ChatManager.as	/^		public function get currRoom():Object$/;"	p
+currRoomObj	src/chat/system/sfs/SfsChatSystem.as	/^		public function get currRoomObj():Object$/;"	p
+currTab	src/ui/ChatPanel.as	/^		public function get currTab():String$/;"	p
+data	src/chat/event/ChatEvent.as	/^		public function get data():Object$/;"	p
+dataObj	src/chat/event/ChatEvent.as	/^		protected var dataObj:Object;$/;"	v
+debug	src/chat/ChatManager.as	/^		public function get debug():Boolean$/;"	p
+disableIME	src/data/ChatData.as	/^		public function disableIME():void$/;"	f
+disableToChat	src/Aschat.as	/^		private function disableToChat():void$/;"	f
+dispose	src/chat/system/BaseChatSystem.as	/^		protected function dispose():void$/;"	f
+dispose	src/chat/system/sfs/SfsChatSystem.as	/^		override protected function dispose():void$/;"	f
+doConnect	src/chat/ChatManager.as	/^		public function doConnect(id:String):void$/;"	f
+doConnect	src/chat/system/sfs/SfsChatSystem.as	/^		public function doConnect():void$/;"	f
+doLoadConfig	src/chat/system/sfs/SfsChatSystem.as	/^		private function doLoadConfig():void$/;"	f
+doLogin	src/chat/system/sfs/SfsChatSystem.as	/^		private function doLogin():void$/;"	f
+enableIME	src/data/ChatData.as	/^		public function enableIME():void$/;"	f
+encodeObject	src/chat/debug/Debug.as	/^		private static function encodeObject(debugObj:Object, debugRoot:String):String$/;"	f
+erExt	src/chat/system/sfs/SfsChatSystem.as	/^		private function erExt(roomName:String, userData:Array):void$/;"	f
+extRequest	src/chat/ChatManager.as	/^		public function extRequest(extCmd:String, params:Object=null):void$/;"	f
+extRequest	src/chat/system/sfs/SfsChatSystem.as	/^		public function extRequest(extCmd:String, params:Object=null):void$/;"	f
+focusInHandler	src/ui/ChatPanel.as	/^		private function focusInHandler(event:FocusEvent):void$/;"	f
+focusInHandler	src/ui/LoginPanel.as	/^		private function focusInHandler(event:FocusEvent):void$/;"	f
+focusOutHandler	src/ui/ChatPanel.as	/^		private function focusOutHandler(event:FocusEvent):void$/;"	f
+focusOutHandler	src/ui/LoginPanel.as	/^		private function focusOutHandler(event:FocusEvent):void$/;"	f
+format	src/chat/debug/FpsCount.as	/^		private var format:TextFormat = new TextFormat();$/;"	v
+getAssetClass	src/Aschat.as	/^		public function getAssetClass(name:String):Class$/;"	f
+getChatTxt	src/data/ChatData.as	/^		public function getChatTxt():String$/;"	f
+getInstance	src/chat/debug/FpsCount.as	/^		public static function getInstance():FpsCount$/;"	f
+getRoomObjByName	src/chat/system/sfs/SfsChatSystem.as	/^		private function getRoomObjByName(name:String):Object$/;"	f
+getRoomTxt	src/data/ChatData.as	/^		public function getRoomTxt():String$/;"	f
+getSendObj	src/data/ChatData.as	/^		public function getSendObj(msg:String):Object$/;"	f
+getUserList	src/chat/system/sfs/SfsChatSystem.as	/^		private function getUserList(data:Array):Array$/;"	f
+getUserObj	src/chat/system/sfs/SfsChatSystem.as	/^		private function getUserObj(data:Array):Object$/;"	f
+getUserTxt	src/data/ChatData.as	/^		public function getUserTxt():String$/;"	f
+hasConfig	src/chat/system/sfs/SfsChatSystem.as	/^		private function hasConfig():Boolean$/;"	f
+hideLoading	src/Aschat.as	/^		public function hideLoading():void$/;"	f
+hideLoginPanel	src/Aschat.as	/^		private function hideLoginPanel():void$/;"	f
+inRoom	src/data/ChatData.as	/^		public function inRoom(userId:String):Boolean$/;"	f
+init	src/Aschat.as	/^		private function init(event:Event=null):void$/;"	f
+init	src/chat/ChatManager.as	/^		public function init(config:Object):void$/;"	f
+init	src/chat/debug/FpsCount.as	/^		private function init():void$/;"	f
+init	src/chat/system/BaseChatSystem.as	/^		protected function init():void$/;"	f
+init	src/chat/system/sfs/SfsChatSystem.as	/^		override protected function init():void$/;"	f
+init	src/ui/ChatPanel.as	/^		private function init():void$/;"	f
+init	src/ui/LoginPanel.as	/^		private function init():void$/;"	f
+isConnected	src/chat/system/sfs/SfsChatSystem.as	/^		public function get isConnected():Boolean$/;"	p
+isMe	src/chat/ChatManager.as	/^		public function isMe(userId:String):Boolean$/;"	f
+joinRoom	src/chat/ChatManager.as	/^		public function joinRoom(roomId:String):void$/;"	f
+joinRoom	src/chat/system/sfs/SfsChatSystem.as	/^		public function joinRoom(roomId:String):void$/;"	f
+joinRoom	src/ui/ChatPanel.as	/^		private function joinRoom(roomId:String):void$/;"	f
+jrExt	src/chat/system/sfs/SfsChatSystem.as	/^		private function jrExt(roomName:String, userListData:Array):void$/;"	f
+keyDownHandler	src/Aschat.as	/^		private function keyDownHandler(event:KeyboardEvent):void$/;"	f
+loadRoomUser	src/data/ChatData.as	/^		public function loadRoomUser(userList:Array):void$/;"	f
+loadRoomUser	src/ui/ChatPanel.as	/^		private function loadRoomUser(userList:Array):void$/;"	f
+loadServerTime	src/chat/system/sfs/SfsChatSystem.as	/^        private function loadServerTime():void$/;"	f
+login	src/ui/LoginPanel.as	/^		private function login(btn:MovieClip):void$/;"	f
+loginBtnClick	src/ui/LoginPanel.as	/^		private function loginBtnClick(event:MouseEvent):void$/;"	f
+lrExt	src/chat/system/sfs/SfsChatSystem.as	/^		private function lrExt(roomName:String, userData:Array):void$/;"	f
+nameTxt	src/ui/LoginPanel.as	/^		private function get nameTxt():String$/;"	p
+onAttemptHttp	src/chat/system/sfs/SfsChatSystem.as	/^		private function onAttemptHttp(event:SFSEvent):void$/;"	f
+onConfigLoadFailure	src/chat/system/sfs/SfsChatSystem.as	/^		private function onConfigLoadFailure(event:SFSEvent):void$/;"	f
+onConfigLoadSuccess	src/chat/system/sfs/SfsChatSystem.as	/^		private function onConfigLoadSuccess(event:SFSEvent):void$/;"	f
+onConnection	src/chat/system/sfs/SfsChatSystem.as	/^		private function onConnection(event:SFSEvent):void$/;"	f
+onConnectionLost	src/chat/system/sfs/SfsChatSystem.as	/^		private function onConnectionLost(event:SFSEvent):void$/;"	f
+onConnectionResume	src/chat/system/sfs/SfsChatSystem.as	/^		private function onConnectionResume(event:SFSEvent):void$/;"	f
+onConnectionRetry	src/chat/system/sfs/SfsChatSystem.as	/^		private function onConnectionRetry(event:SFSEvent):void$/;"	f
+onDisConn	src/Aschat.as	/^		private function onDisConn(event:ChatEvent):void$/;"	f
+onEnterKey	src/ui/ChatPanel.as	/^		public function onEnterKey():void$/;"	f
+onEnterKey	src/ui/LoginPanel.as	/^		public function onEnterKey():void$/;"	f
+onExtensionResponse	src/chat/system/sfs/SfsChatSystem.as	/^		private function onExtensionResponse(event:SFSEvent):void$/;"	f
+onLoaderComp	src/Aschat.as	/^		private function onLoaderComp(event:Event):void$/;"	f
+onLogin	src/Aschat.as	/^		private function onLogin(event:ChatEvent):void$/;"	f
+onLogin	src/chat/system/sfs/SfsChatSystem.as	/^		private function onLogin(event:SFSEvent):void$/;"	f
+onLoginError	src/chat/system/sfs/SfsChatSystem.as	/^		private function onLoginError(event:SFSEvent):void$/;"	f
+onMessage	src/ui/ChatPanel.as	/^		private function onMessage(event:ChatEvent):void$/;"	f
+onPrivateMessage	src/chat/system/sfs/SfsChatSystem.as	/^		private function onPrivateMessage(event:SFSEvent):void$/;"	f
+onPublicMessage	src/chat/system/sfs/SfsChatSystem.as	/^		private function onPublicMessage(event:SFSEvent):void$/;"	f
+onRoomJoin	src/chat/system/sfs/SfsChatSystem.as	/^		private function onRoomJoin(event:SFSEvent):void$/;"	f
+onRoomJoin	src/ui/ChatPanel.as	/^		private function onRoomJoin(event:ChatEvent):void$/;"	f
+onRoomJoinError	src/chat/system/sfs/SfsChatSystem.as	/^		private function onRoomJoinError(event:SFSEvent):void$/;"	f
+onSocketError	src/chat/system/sfs/SfsChatSystem.as	/^		private function onSocketError(event:SFSEvent):void$/;"	f
+onTxtClick	src/ui/ChatPanel.as	/^		private function onTxtClick(event:TextEvent):void$/;"	f
+onUserCountChange	src/chat/system/sfs/SfsChatSystem.as	/^		private function onUserCountChange(event:SFSEvent):void$/;"	f
+onUserEnterRoom	src/chat/system/sfs/SfsChatSystem.as	/^		private function onUserEnterRoom(event:SFSEvent):void$/;"	f
+onUserEnterRoom	src/ui/ChatPanel.as	/^		private function onUserEnterRoom(event:ChatEvent):void$/;"	f
+onUserExitRoom	src/chat/system/sfs/SfsChatSystem.as	/^		private function onUserExitRoom(event:SFSEvent):void$/;"	f
+onUserExitRoom	src/ui/ChatPanel.as	/^		private function onUserExitRoom(event:ChatEvent):void$/;"	f
+pongExt	src/chat/system/sfs/SfsChatSystem.as	/^		private function pongExt(time:int):void$/;"	f
+prmExt	src/chat/system/sfs/SfsChatSystem.as	/^		private function prmExt(userData:Array, msgData:String, params:Object):void$/;"	f
+process	src/Aschat.as	/^		private function process(event:Event):void$/;"	f
+process	src/chat/ChatManager.as	/^		public function process():void$/;"	f
+process	src/chat/system/sfs/SfsChatSystem.as	/^		public function process():void$/;"	f
+pumExt	src/chat/system/sfs/SfsChatSystem.as	/^		private function pumExt(roomName:String, userData:Array, msgData:String, params:Object):void$/;"	f
+reConnect	src/chat/system/sfs/SfsChatSystem.as	/^		private function reConnect():void$/;"	f
+removeEvent	src/chat/system/BaseChatSystem.as	/^		protected function removeEvent():void$/;"	f
+removeEvent	src/chat/system/sfs/SfsChatSystem.as	/^		override protected function removeEvent():void$/;"	f
+removeRoomUser	src/data/ChatData.as	/^		public function removeRoomUser(userObj:Object):void$/;"	f
+render	src/chat/debug/FpsCount.as	/^		private function render(event:Event):void$/;"	f
+replaceStr	src/data/ChatData.as	/^		private function replaceStr(str:String):String$/;"	f
+roomListFromGroup	src/chat/ChatManager.as	/^		public function roomListFromGroup(groupId:String):Array$/;"	f
+roomListFromGroup	src/chat/system/sfs/SfsChatSystem.as	/^		public function roomListFromGroup(groupId:String):Array$/;"	f
+roomListToArray	src/chat/system/sfs/SfsChatSystem.as	/^		private function roomListToArray(roomList:Array):Array$/;"	f
+roomTabBtnClick	src/ui/ChatPanel.as	/^		private function roomTabBtnClick(event:MouseEvent):void$/;"	f
+roomToObject	src/chat/system/sfs/SfsChatSystem.as	/^		private function roomToObject(room:Room):Object$/;"	f
+roomUser	src/data/ChatData.as	/^		public function get roomUser():Array$/;"	p
+sendBtnClick	src/ui/ChatPanel.as	/^		private function sendBtnClick(event:MouseEvent):void$/;"	f
+sendMsg	src/ui/ChatPanel.as	/^		private function sendMsg(btn:MovieClip):void$/;"	f
+sendPrivateMsg	src/chat/ChatManager.as	/^		public function sendPrivateMsg(msg:String, toId:String, params:Object=null):Boolean$/;"	f
+sendPrivateMsg	src/chat/system/sfs/SfsChatSystem.as	/^		public function sendPrivateMsg(msg:String, toId:String, params:Object=null):Boolean$/;"	f
+sendPublicMsg	src/chat/ChatManager.as	/^		public function sendPublicMsg(msg:String, params:Object=null):void$/;"	f
+sendPublicMsg	src/chat/system/sfs/SfsChatSystem.as	/^		public function sendPublicMsg(msg:String, params:Object=null):void$/;"	f
+sendTxt	src/ui/ChatPanel.as	/^		private function get sendTxt():String$/;"	p
+setChatTxt	src/ui/ChatPanel.as	/^		private function setChatTxt(userId:String):void$/;"	f
+setCurrRoom	src/chat/system/sfs/SfsChatSystem.as	/^		private function setCurrRoom(name:String):void$/;"	f
+setInputTf	src/ui/LoginPanel.as	/^		private function setInputTf(event:Event):void$/;"	f
+setInputTxt	src/ui/ChatPanel.as	/^		private function setInputTxt(event:Event):void$/;"	f
+setSysTime	src/chat/ChatManager.as	/^		public function setSysTime(time:int):void$/;"	f
+sfs_connect	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_connect(host:String=null, port:int=-1):void$/;"	f
+sfs_extRequest	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_extRequest(extCmd:String, params:Object=null, room:Room=null, useUDP:Boolean=false):void$/;"	f
+sfs_joinRoom	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_joinRoom(id:String, roomIdToLeave:Number, pass:String=null, asSpect:Boolean = false):void$/;"	f
+sfs_loadConfig	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_loadConfig(filePath:String='sfs-config.xml', connectOnSuccess:Boolean=true):void$/;"	f
+sfs_login	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_login(username:String):void$/;"	f
+sfs_sendPrivateMsg	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_sendPrivateMsg(msg:String, userId:String, params:Object=null):Boolean$/;"	f
+sfs_sendPublicMsg	src/chat/system/sfs/SfsChatSystem.as	/^		private function sfs_sendPublicMsg(msg:String, params:Object=null, room:Room=null):void$/;"	f
+showLoading	src/Aschat.as	/^		public function showLoading():void$/;"	f
+showLoginPanel	src/Aschat.as	/^		private function showLoginPanel():void$/;"	f
+showMsg	src/chat/ChatManager.as	/^		public function showMsg(type:String, obj:Object=null):void$/;"	f
+showRoomList	src/ui/ChatPanel.as	/^		public function showRoomList():void$/;"	f
+singleton	src/chat/ChatManager.as	/^		public static function get singleton():ChatManager$/;"	p
+singleton	src/data/ChatData.as	/^		public static function get singleton():ChatData$/;"	p
+sysTime	src/chat/ChatManager.as	/^		public function get sysTime():int$/;"	p
+systemType	src/chat/ChatManager.as	/^		public function get systemType():String$/;"	p
+t	src/chat/debug/FpsCount.as	/^		private var t:Timer = new Timer(1000);$/;"	v
+textInput	src/ui/ChatPanel.as	/^		private function textInput(event:Event):void$/;"	f
+textInput	src/ui/LoginPanel.as	/^		private function textInput(event:Event):void$/;"	f
+ticks	src/chat/debug/FpsCount.as	/^		private var ticks:int;$/;"	v
+trim	src/data/ChatData.as	/^		public function trim(str:String):String$/;"	f
+update	src/chat/debug/FpsCount.as	/^		private function update(event:TimerEvent):void$/;"	f
+userId	src/chat/ChatManager.as	/^		public function get userId():String$/;"	p
+userListToArray	src/chat/system/sfs/SfsChatSystem.as	/^		private function userListToArray(userList:Array):Array$/;"	f
+userToObject	src/chat/system/sfs/SfsChatSystem.as	/^		private function userToObject(user:User):Object$/;"	f
