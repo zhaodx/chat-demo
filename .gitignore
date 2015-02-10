@@ -1,0 +1,6 @@
+/**/bin-debug
+/**/tags
+*.swp
+/**/*.swp
+/**/.DS_Store
+
